@@ -4,7 +4,7 @@ A robust backtesting analysis of a **Simple Moving Average (SMA) Crossover strat
 
 ---
 
-## 🎯 Methodology & Strategy
+## Methodology & Strategy
 
 ### Strategy Choice: Swing Trading Momentum
 
@@ -55,7 +55,7 @@ The strategy can be optimised for choppy markets by utilising **Exponential Movi
 * **Data Processing:** Data is filtered for the `returns` column; an empty DataFrame or output is returned if the column is empty.
 * **Volatility:** Calculated as $\text{stdev} \times \sqrt{n}$, where $n$ is the number of time periods (e.g., 365 for annualising daily data).
 * **Sharpe Ratio:** Calculated as $\frac{\text{Annualized Returns}}{\text{Volatility}}$.
-* **Drawdown:** Calculated by taking the difference of the current price from the previous peak, expressed as a percentage of the rolling maximum (`rolling\_max`). The max drawdown is the greatest negative magnitude of this metric.
+* **Drawdown:** Calculated by taking the difference of the current price from the previous peak, expressed as a percentage of the rolling maximum (`rolling_max`). The max drawdown is the greatest negative magnitude of this metric.
 
 ### Plotting of Results
 
